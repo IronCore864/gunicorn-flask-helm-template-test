@@ -34,4 +34,4 @@ jobs:
           pip install -r requirements.txt
       - name: Test
         run: |
-          python3 -m unittestpytest
+          python3 -m unittest
